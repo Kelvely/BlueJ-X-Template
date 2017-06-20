@@ -33,5 +33,9 @@ public class MainClass extends Extension {
 	public BlueJ getBlueJ() {
 		return blueJ;
 	}
+	
+	public static void main(String[] args) {
+		System.exit(1);
+	}
 
 }
